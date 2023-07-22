@@ -1,0 +1,12 @@
+"test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+
+    "main": "index.js",
+
+    import Home from "./Pages/Home";
+import Login from "./Pages/Login";
+
+<Route index element={<Home />} />
+
+<Route path="login" element={<Login />} />
